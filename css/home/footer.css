@@ -1,0 +1,37 @@
+.footer-bg {
+  background: var(--cor-s1);
+  background-image: url(../../img/icon/Linhas\ verde\ top\ right.svg),
+    url(../../img/icon/Linhas\ verde\ bottom\ left.svg);
+  background-repeat: no-repeat, no-repeat;
+  background-position: top right, left bottom;
+  padding-top: 180px;
+  padding-bottom: 200px;
+}
+
+.footer-grid {
+  display: grid;
+  grid-template-columns: 1fr auto;
+}
+
+.footer-endereco p {
+  margin-top: 16px;
+}
+
+.footer-info {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.footer-info h3 {
+  grid-area: 1;
+}
+
+.row-2 {
+  grid-area: 2;
+  padding-top: 20px;
+}
+
+.row-3 {
+  grid-area: 3;
+  padding-top: 10px;
+}

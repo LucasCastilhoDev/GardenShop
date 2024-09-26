@@ -1,0 +1,18 @@
+@import "./global/global.css";
+
+@import "./home/menu.css";
+@import "./home/introducao.css";
+@import "./home/catalogo.css";
+@import "./home/sobre.css";
+@import "./home/footer.css";
+
+@import "./global/global.css";
+
+@import "./utilidades/componentes.css";
+@import "./utilidades/cores.css";
+@import "./utilidades/tipografia.css";
+
+/* Planta */
+
+@import "./planta/planta.css";
+@import "./planta/loja.css";

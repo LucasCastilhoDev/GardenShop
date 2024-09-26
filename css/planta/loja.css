@@ -1,0 +1,38 @@
+.loja-bg {
+  margin-bottom: 100px;
+}
+
+.loja-bg h2 {
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+.loja-conteudo {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 60px;
+}
+
+.loja-grid {
+  background-color: var(--cor-p1);
+  border-radius: 4px;
+  max-width: 550px;
+  padding-bottom: 90px;
+}
+
+.loja-grid h2 {
+  text-align: start;
+  margin-top: 16px;
+  margin-bottom: 8px;
+}
+.loja-grid h2,
+.loja-grid p {
+  margin-left: 30px;
+}
+
+.loja-grid iframe {
+  height: 300px;
+  width: 550px;
+  border-radius: 4px;
+}

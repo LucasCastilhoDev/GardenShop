@@ -1,0 +1,65 @@
+.catalogo {
+  margin-bottom: 100px;
+}
+
+.catalogo h2 {
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+.catalogo-lista {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 110px;
+}
+
+.catalogo-lista li {
+  min-width: 300px;
+}
+
+.catalogo > img {
+  border-radius: 4px;
+}
+
+.catalogo-lista a {
+  display: block;
+  position: relative;
+  height: 0px;
+}
+
+.catalogo-planta {
+  display: inline-block;
+  position: relative;
+  top: -55px;
+  left: 10px;
+  padding: 10px 20px;
+  background-color: var(--cor-p2);
+  border-radius: 50px;
+}
+
+.catalogo-botao > img {
+  position: relative;
+  left: 250px;
+  top: -92px;
+  padding: 3px;
+  border-radius: 50%;
+}
+
+.catalogo-botao > img:hover {
+  background: var(--cor-p3);
+  border-radius: 50%;
+  padding: 3px;
+
+  transition: 0.3s;
+}
+
+@media (max-width: 712px) {
+  .catalogo-lista {
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    gap: 50px;
+    overflow-x: auto;
+    padding-left: 15px;
+  }
+}
