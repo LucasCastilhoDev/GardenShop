@@ -1,0 +1,114 @@
+.orcamento-bg {
+  background-color: #fefaec;
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+.orcamento-formulario h1 {
+  font: 600 3rem/1.35 "Titillium web", sans-serif;
+  margin-bottom: 40px;
+}
+
+.form div label {
+  font: 600 1.25rem/1.35 "Titillium web", sans-serif;
+}
+
+.orcamento-formulario input {
+  font: 500 1rem/1.35 "Titillium web", sans-serif;
+  color: var(--cor-p3);
+}
+
+.orcamentogrid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px;
+}
+
+.orcamento-planta h2 {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.plantas-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.botao-check {
+  display: flex;
+  gap: 5px;
+  align-items: center;
+  padding: 4px 12px;
+  background-color: var(--cor-1);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.3);
+  border-radius: 50px;
+}
+
+.botao-check:hover {
+  background-color: #f4f4f4;
+}
+
+#orcamento .loja-bg {
+  margin-top: 50px;
+}
+
+@media (max-width: 1255px) {
+  .orcamentogrid {
+    grid-template-columns: 1fr;
+  }
+  .orcamento-imagem {
+    grid-area: 1;
+    overflow: hidden;
+    height: 400px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px;
+  }
+  .orcamento-imagem img {
+    height: 400px;
+    width: 100%;
+    height: auto;
+  }
+}
+
+@media (max-width: 600px) {
+  .orcamento-formulario h1 {
+    font-size: 2rem;
+    margin-bottom: 40px;
+  }
+  .orcamento-formulario label {
+    font-size: 0.875rem;
+  }
+  .orcamento-formulario input {
+    font-size: 0.875rem;
+  }
+  .plantas-container label {
+    font-size: 1.125rem;
+  }
+  .form div label {
+    font-size: 1.125rem;
+  }
+  .botao-check {
+    padding: 4px 8px;
+  }
+}
+
+@media (max-width: 450px) {
+  .orcamento-formulario h1 {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+  }
+
+  .plantas-container label {
+    font-size: 0.875rem;
+  }
+  .form div label {
+    font-size: 1rem;
+  }
+  .botao-check {
+    padding: 3px 7px;
+  }
+}

@@ -40,7 +40,13 @@
   width: 100%;
 }
 
-@media (max-width: 370px) {
+@media (max-width: 1430px) {
+  .header-bg {
+    background: var(--cor-p2);
+  }
+}
+
+@media (max-width: 620px) {
   .header-menu {
     display: none;
   }

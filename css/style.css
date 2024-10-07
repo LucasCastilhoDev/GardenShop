@@ -16,3 +16,10 @@
 
 @import "./planta/planta.css";
 @import "./planta/loja.css";
+
+/* Orçamento */
+@import "./orcamento/orcamento.css";
+
+/* Formulário */
+
+@import "./utilidades/formulario.css";

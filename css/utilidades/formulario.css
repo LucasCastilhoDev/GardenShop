@@ -1,0 +1,82 @@
+.form {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 30px;
+}
+
+.form label {
+  font: 600 1.25rem/1.35 "Titillium web", sans-serif;
+  color: var(--cor-p3);
+  display: block;
+  margin-bottom: 4px;
+}
+
+.form input[type="text"],
+.form input[type="email"],
+.form textarea {
+  background: var(--cor-1);
+  border: none;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.3);
+  padding: 8px 12px;
+  border-radius: 4px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.form .col-2 {
+  grid-column: span 2;
+}
+
+.botao-check input[type="checkbox"] {
+  appearance: none;
+  display: block;
+  width: 30px;
+  height: 30px;
+  background: url(../../img/icon/botão\ mais\ cor\ 2.svg) no-repeat center;
+  cursor: pointer;
+}
+
+.botao-check input[type="checkbox"]:checked {
+  background: url(../../img/icon/Botãocheck.svg) no-repeat center;
+}
+
+.botao-envio {
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  margin-top: 50px;
+}
+
+.botao-envio button {
+  font: 600 1.25rem/1.35 "Titillium web", sans-serif;
+  color: var(--cor-1);
+  cursor: pointer;
+  background-color: var(--cor-p3);
+  padding: 8px 18px;
+  border-radius: 50px;
+}
+
+.botao-envio button:hover {
+  background-color: #105321;
+}
+
+@media (max-width: 600px) {
+  .form input[type="text"],
+  .form input[type="email"],
+  .form textarea {
+    padding: 8px 10px;
+  }
+  .botao-check input[type="checkbox"] {
+    background-size: 25px;
+  }
+}
+
+@media (max-width: 450px) {
+  .botao-check input[type="checkbox"] {
+    background-size: 22px;
+  }
+  .botao-envio button {
+    font-size: 1rem;
+    padding: 6px 16px;
+  }
+}

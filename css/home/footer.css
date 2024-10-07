@@ -10,7 +10,7 @@
 
 .footer-grid {
   display: grid;
-  grid-template-columns: 1fr auto;
+  grid-template-columns: 1fr 1fr;
 }
 
 .footer-endereco p {
@@ -34,4 +34,36 @@
 .row-3 {
   grid-area: 3;
   padding-top: 10px;
+}
+
+@media (max-width: 950px) {
+  .footer-grid {
+    grid-template-columns: 1fr;
+    gap: 30px;
+  }
+}
+
+@media (max-width: 461px) {
+  .footer-info {
+    grid-template-columns: 1fr;
+  }
+  .footer-info h3 {
+    grid-area: initial;
+  }
+
+  .footer-info h3:nth-child(4),
+  .footer-info h3:nth-child(7) {
+    margin-top: 20px;
+  }
+
+  .row-2,
+  .row-3 {
+    grid-area: initial;
+  }
+  .footer-endereco p,
+  .footer-info h3,
+  .footer-info p,
+  .footer-info a {
+    font-size: 1rem;
+  }
 }

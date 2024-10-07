@@ -7,11 +7,8 @@
 
 .planta-conteudo {
   display: grid;
-  grid-template-columns: 1fr auto;
-}
-
-.planta-descricao {
-  width: 700px;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
 }
 
 .planta-descricao h1 {
@@ -31,6 +28,32 @@
   background-color: #165827;
 }
 
-#monstera .catalogo h2 {
+#monstera .catalogo-titulo {
   margin-top: 50px;
+}
+
+@media (max-width: 730px) {
+  .planta-bg {
+    background: var(--cor-s1);
+  }
+  .planta-conteudo {
+    grid-template-columns: 1fr;
+  }
+  .planta-descricao {
+    grid-area: 2;
+  }
+  .planta-imagem {
+    justify-self: center;
+    grid-area: 1;
+  }
+}
+
+@media (max-width: 480px) {
+  .planta-descricao h1 {
+    font-size: 2rem;
+  }
+  .planta-descricao a {
+    font-size: 1.25rem;
+    padding: 8px 12px;
+  }
 }
