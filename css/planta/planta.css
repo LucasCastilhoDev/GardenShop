@@ -28,7 +28,14 @@
   background-color: #165827;
 }
 
-#monstera .catalogo-titulo {
+#monstera .catalogo-titulo,
+#zamioculca .catalogo-titulo,
+#philodendron .catalogo-titulo,
+#mostera-adansonii .catalogo-titulo,
+#samambaia .catalogo-titulo,
+#jiboia .catalogo-titulo,
+#ficus-lyrata .catalogo-titulo,
+#cacto .catalogo-titulo {
   margin-top: 50px;
 }
 

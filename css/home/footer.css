@@ -43,7 +43,7 @@
   }
 }
 
-@media (max-width: 461px) {
+@media (max-width: 560px) {
   .footer-info {
     grid-template-columns: 1fr;
   }
