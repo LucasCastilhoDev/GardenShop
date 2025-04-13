@@ -1,9 +1,5 @@
 .footer-bg {
   background: var(--cor-s1);
-  background-image: url(../../img/icon/Linhas\ verde\ top\ right.svg),
-    url(../../img/icon/Linhas\ verde\ bottom\ left.svg);
-  background-repeat: no-repeat, no-repeat;
-  background-position: top right, left bottom;
   padding-top: 180px;
   padding-bottom: 200px;
 }
