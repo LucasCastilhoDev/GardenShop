@@ -1,12 +1,21 @@
 .sobre-bg {
-  background: var(--cor-p1);
-  box-shadow: inset 0 80px var(--cor-1);
+  padding-top: 50px;
+  background: var(--cor-s1);
 }
 
 .sobre-conteudo {
+  box-sizing: border-box;
+  max-width: 1600px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-left: auto;
+  margin-right: auto;
+
   display: grid;
   grid-template-columns: 1fr 1fr;
   place-items: center;
+  background: var(--cor-p4);
+  border-radius: 10px;
 }
 
 .sobre-conteudo h2 {
@@ -18,17 +27,15 @@
   max-width: 500px;
 }
 
-.sobre-conteudo a {
-  display: inline-block;
-  background-color: var(--cor-1);
-  padding: 10px 16px;
-  border-radius: 50px;
-  margin-top: 50px;
+.sobre-descricao a {
+  display: block;
+  margin-bottom: 30px;
 }
 
-.sobre-conteudo a:hover {
-  background-color: var(--cor-s1);
-  transition: 0.3s;
+.sobre-imagem img {
+  border-radius: 10px;
+  max-width: 600px;
+  margin: 50px;
 }
 
 @media (max-width: 1060px) {

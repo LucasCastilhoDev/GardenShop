@@ -5,6 +5,7 @@
   --cor-p1: #5a8364;
   --cor-p2: #4e885c;
   --cor-p3: #134a21;
+  --cor-p4: #2d4e35;
 
   --cor-s1: #fefaec;
 }
@@ -27,6 +28,10 @@
 
 .cor-p3 {
   color: #134a21;
+}
+
+.cor-p4 {
+  color: #2d4e35;
 }
 
 .cor-s1 {

@@ -1,21 +1,32 @@
+.catalogo-bg {
+  background-color: var(--cor-s1);
+}
+
 .catalogo {
-  margin-bottom: 100px;
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
 
 .catalogo h2 {
-  text-align: center;
+  text-align: start;
   margin-bottom: 60px;
 }
 
 .catalogo-lista {
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
-  gap: 110px;
+  justify-content: start;
+  gap: 50px;
 }
 
 .catalogo-lista li {
+  position: relative;
+  border-radius: 4px;
   min-width: 300px;
+  box-shadow: -2px 0 0 rgba(0, 0, 0, 0.1);
+  /* filter: drop-shadow(2px 3px 1px rgba(0, 0, 0, 0.1)); */
+  border-radius: 4px;
+  list-style: none;
 }
 
 .catalogo > img {
@@ -24,34 +35,44 @@
 
 .catalogo-lista a {
   display: block;
-  position: relative;
   height: 0px;
 }
 
 .catalogo-planta {
   display: inline-block;
-  position: relative;
-  top: -55px;
+  position: absolute;
+  top: 250px;
   left: 10px;
   padding: 10px 20px;
-  background-color: var(--cor-p2);
+  background-color: var(--cor-p4);
   border-radius: 50px;
 }
 
-.catalogo-botao > img {
-  position: relative;
-  left: 250px;
-  top: -92px;
-  padding: 3px;
+.catalogo-botao-compra img,
+.catalogo-botao img {
+  box-sizing: border-box;
+  position: absolute;
+  height: 35px;
+  width: 35px;
+  background: var(--cor-p4);
+  padding: 6px;
   border-radius: 50%;
 }
 
-.catalogo-botao > img:hover {
-  background: var(--cor-p3);
-  border-radius: 50%;
-  padding: 3px;
+.catalogo-botao img {
+  top: 250px;
+  left: 205px;
+}
 
-  transition: 0.3s;
+.catalogo-botao-compra img {
+  top: 250px;
+  left: 255px;
+}
+
+.catalogo-botao-compra img:hover,
+.catalogo-botao img:hover {
+  filter: drop-shadow(2px 2px 1px rgba(0, 0, 0, 0.8));
+  transition: filter 0.2s;
 }
 
 @media (max-width: 712px) {
