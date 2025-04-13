@@ -5,8 +5,12 @@
 }
 
 .footer-grid {
+  background: var(--cor-p4);
   display: grid;
   grid-template-columns: 1fr 1fr;
+
+  border-radius: 10px;
+  padding: 110px 50px 90px 50px;
 }
 
 .footer-endereco p {
