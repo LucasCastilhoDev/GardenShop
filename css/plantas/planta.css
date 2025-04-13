@@ -1,17 +1,21 @@
 .planta-bg {
-  background: var(--cor-s1) url(../../img/icon/Linhas\ verde\ bottom\ left.svg)
-    no-repeat left top 520px;
-  padding-top: 80px;
+  padding-top: 50px;
   padding-bottom: 80px;
 }
 
 .planta-conteudo {
+  background: var(--cor-s1);
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1.5fr 1fr;
+
+  place-items: center;
+  border-radius: 10px;
+  padding: 30px 50px;
   gap: 20px;
 }
 
 .planta-descricao h1 {
+  place-items: center;
   font-size: 3rem;
   margin-bottom: 20px;
 }
@@ -19,7 +23,7 @@
 .planta-descricao a {
   display: inline-block;
   background-color: var(--cor-p3);
-  padding: 10px 15px;
+  padding: 10px 25px;
   border-radius: 50px;
   margin-top: 55px;
 }
