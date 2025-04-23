@@ -75,7 +75,7 @@
   transition: filter 0.2s;
 }
 
-@media (max-width: 712px) {
+@media (max-width: 1404px) {
   .catalogo-lista {
     flex-wrap: nowrap;
     justify-content: flex-start;

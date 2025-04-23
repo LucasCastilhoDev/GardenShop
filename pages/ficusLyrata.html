@@ -14,70 +14,96 @@
   </head>
 
   <body id="ficus-lyrata">
-    <header class="header-bg">
-      <div class="header container">
-        <a href="../index.html"
-          ><img src="../img/icon/GardenShop LOGO.svg" alt="Garden Shop Logo"
-        /></a>
+    <div class="gradiente-bg">
+      <header class="header-bg">
+        <div class="header container">
+          <a href="../index.html"
+            ><img src="../img/icon/GardenShop LOGO.svg" alt="Garden Shop Logo"
+          /></a>
 
-        <nav
-          id="nav"
-          aria-label="Menu"
-          aria-controls="menu"
-          aria-expanded="false"
-        >
-          <button
-            aria-label="Abrir Menu"
-            class="font-s cor-1"
-            id="btn-mobile"
-            aria-haspopup="true"
+          <nav
+            id="nav"
+            aria-label="Menu"
+            aria-controls="menu"
+            aria-expanded="false"
           >
-            <span id="hamburger"></span>
-          </button>
-          <ul id="menu" class="header-menu font-s cor-1" role="menu">
-            <li><a href="../index.html">Home</a></li>
-            <li><a href="../index.html#catalogo">Catálogo</a></li>
-            <li><a href="../orcamento.html">Orçamento</a></li>
-            <li><a href="../index.html#sobre">Sobre Nós</a></li>
-          </ul>
-        </nav>
-      </div>
-    </header>
-
-    <main class="planta-bg">
-      <div class="planta-conteudo container">
-        <div class="planta-descricao">
-          <h1 class="cor-p3">Ficus Lyrata</h1>
-          <p class="font-xs cor-p3">
-            A Ficus Lyrata, também conhecida como Figueira-Lira ou Fiddle-Leaf
-            Fig, é uma planta perene da família Moraceae. Suas folhas são
-            grandes, com forma de violino, e têm uma textura coriácea e veias
-            pronunciadas. A cor das folhas varia do verde médio ao verde escuro,
-            com um brilho elegante.
-          </p>
-
-          <a class="font-l-b cor-1" href="../orcamento.html"
-            >Solicite um Orçamento</a
-          >
+            <button
+              aria-label="Abrir Menu"
+              class="font-s cor-1"
+              id="btn-mobile"
+              aria-haspopup="true"
+            >
+              <span id="hamburger"></span>
+            </button>
+            <ul id="menu" class="header-menu font-s cor-1" role="menu">
+              <li><a href="../index.html#home">Home</a></li>
+              <li><a href="#catalogo">Catálogo</a></li>
+              <li><a href="../index.html#sobre">Quem Somos</a></li>
+              <li><a href="../index.html#nossa-loja">Nossa Loja</a></li>
+              <li>
+                <a href="#"
+                  ><img src="../img/icon/carrinho.svg" alt="Carrinho"
+                /></a>
+              </li>
+              <li>
+                <a href="#"><img src="../img/icon/user.svg" alt="Usuário" /></a>
+              </li>
+            </ul>
+          </nav>
         </div>
-        <div class="planta-imagem">
-          <img src="../img/Orçamento/ficusorcamento.jpg" alt="Ficus Lyrata" />
-        </div>
-      </div>
-    </main>
+      </header>
 
-    <article class="container">
-      <div class="catalogo">
+      <main class="planta-bg">
+        <div class="planta-conteudo container">
+          <div class="planta-descricao">
+            <h1 class="cor-p3">Ficus Lyrata</h1>
+            <p class="font-xs cor-p3">
+              A Ficus Lyrata, também conhecida como Figueira-Lira ou Fiddle-Leaf
+              Fig, é uma planta perene da família Moraceae. Suas folhas são
+              grandes, com forma de violino, e têm uma textura coriácea e veias
+              pronunciadas. A cor das folhas varia do verde médio ao verde
+              escuro, com um brilho elegante.
+            </p>
+
+            <a class="font-l-b cor-1" href="../orcamento.html"
+              >Adiconar ao carrinho</a
+            >
+          </div>
+          <div class="planta-imagem">
+            <img src="../img/Orçamento/ficusorcamento.jpg" alt="Ficus Lyrata" />
+          </div>
+        </div>
+      </main>
+    </div>
+
+    <article class="catalogo-bg" id="catalogo">
+      <div class="catalogo container">
         <h2 class="catalogo-titulo font-xl cor-p3">Outras Plantas</h2>
         <ul class="catalogo-lista">
+          <li>
+            <img
+              src="../img/Catalogo/monsteracatalogo.jpg"
+              alt="Planta Monstera Deliciosa"
+            />
+            <p class="catalogo-planta cor-1">Monstera Deliciosa</p>
+            <a class="catalogo-botao" href="../pages/monsteraDeliciosa.html"
+              ><img src="../img/icon/plus.svg" alt=""
+            /></a>
+            <a class="catalogo-botao-compra" href="./pages/carrinho.html"
+              ><img src="../img/icon/carrinho.svg" alt=""
+            /></a>
+          </li>
           <li>
             <img
               src="../img/Catalogo/zamioculcacatalogo.jpg"
               alt="Planta Zamioculca"
             />
             <p class="catalogo-planta cor-1">Zamioculca</p>
-            <a class="catalogo-botao" href="./zamioculca.html"
-              ><img src="../img/icon/botão mais cor 1.svg" alt=""
+            <a class="catalogo-botao" href="../pages/zamioculca.html"
+              ><img src="../img/icon/plus.svg" alt=""
+            /></a>
+            <a class="catalogo-botao-compra" href="../pages/carrinho.html"
+              ><img src="../img/icon/carrinho.svg" alt=""
             /></a>
           </li>
           <li>
@@ -86,8 +112,11 @@
               alt="Planta Philodendron"
             />
             <p class="catalogo-planta cor-1">Philodendron</p>
-            <a class="catalogo-botao" href="./philodendron.html"
-              ><img src="../img/icon/botão mais cor 1.svg" alt=""
+            <a class="catalogo-botao" href="../pages/philodendron.html"
+              ><img src="../img/icon/plus.svg" alt=""
+            /></a>
+            <a class="catalogo-botao-compra" href="../pages/carrinho.html"
+              ><img src="../img/icon/carrinho.svg" alt=""
             /></a>
           </li>
           <li>
@@ -96,73 +125,43 @@
               alt="Planta Monstera Adansonii"
             />
             <p class="catalogo-planta cor-1">Monstera Adansonii</p>
-            <a class="catalogo-botao" href="./monsteraAdansonii.html"
-              ><img src="../img/icon/botão mais cor 1.svg" alt=""
+            <a class="catalogo-botao" href="../pages/monsteraAdansonii.html"
+              ><img src="../img/icon/plus.svg" alt=""
+            /></a>
+            <a class="catalogo-botao-compra" href="../pages/carrinho.html"
+              ><img src="../img/icon/carrinho.svg" alt=""
             /></a>
           </li>
         </ul>
       </div>
     </article>
 
-    <section class="loja-bg">
-      <div class="container">
-        <h2 class="font-xl cor-p3">Nossa Loja</h2>
-        <div class="loja-conteudo">
-          <div class="loja-grid">
-            <iframe
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d772.474477523354!2d-43.17886184452508!3d-22.930752635924637!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x997f86beca589f%3A0xc06e3edfb20dcc30!2sLargo%20do%20Machado!5e0!3m2!1spt-BR!2sbr!4v1725577941516!5m2!1spt-BR!2sbr"
-              width="550"
-              height="300"
-              style="border: 0"
-              allowfullscreen="0"
-              loading="lazy"
-              referrerpolicy="no-referrer-when-downgrade"
-              frameborder="0"
-            ></iframe>
-            <h2 class="font-xl cor-1">Rio de Janeiro</h2>
-            <p class="font-s cor-1">
-              Rua Ali Perto 918, Catete - Rio de Janeiro -RJ
-            </p>
-          </div>
-          <div class="loja-grid">
-            <img src="../img/gardenshop orçamento.jpg" alt="Loja Gardenshop" />
-            <h2 class="font-xl cor-1">Garden Shop</h2>
-            <p class="font-s cor-1">
-              Na Garden Shop, você encontrará uma vasta seleção de plantas,
-              Venha nos visitar.
-            </p>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <article class="sobre-bg"></article>
     <footer class="footer-bg">
-      <div class="footer-grid container">
-        <div class="footer-endereco">
-          <img src="../img/icon/GardenShop LOGO verde.svg" alt="Garden Shop" />
-          <p class="font-s cor-p3">
-            Rua Ali Perto 918, Catete - Rio de Janeiro
-          </p>
-        </div>
-        <div class="footer-info">
-          <h3 class="font-s-b cor-p3">Rede Social</h3>
-          <a class="row-2" href="https://www.instagram.com" target="_blank"
-            ><img src="../img/icon/logo-instagram.svg" alt=""
-          /></a>
-          <a class="row-3" href="https://www.facebook.com" target="_blank">
-            <img src="../img/icon/logo-facebook.svg" alt=""
-          /></a>
-          <h3 class="font-s-b cor-p3">Serviços</h3>
-          <p class="row-2 font-s cor-p3">Plantas</p>
-          <p class="row-3 font-s cor-p3">Orçamento</p>
-          <h3 class="font-s-b cor-p3">Contato</h3>
-          <a class="row-2 font-s cor-p3" href="tel:+5521999999999"
-            >(21) 99999-9999</a
-          >
-          <a class="row-3 font-s cor-p3" href="mailto:comercial@gardenshop.com"
-            >comercial@gardenshop.com</a
-          >
+      <div class="container">
+        <div class="footer-grid">
+          <div class="footer-endereco">
+            <img src="../img/icon/GardenShop LOGO.svg" alt="Garden Shop" />
+            <p class="font-s cor-1">
+              Rua Ali Perto 918, Catete - Rio de Janeiro
+            </p>
+          </div>
+          <div class="footer-info">
+            <h3 class="font-s-b cor-1">Rede Social</h3>
+            <a class="row-2" href="https://www.instagram.com" target="_blank"
+              ><img src="../img/icon/logo-instagram.svg" alt=""
+            /></a>
+            <a class="row-3" href="https://www.facebook.com" target="_blank">
+              <img src="../img/icon/logo-facebook.svg" alt=""
+            /></a>
+
+            <h3 class="font-s-b cor-1">Contato</h3>
+            <a class="row-2 font-s cor-1" href="tel:+5521999999999"
+              >(21) 99999-9999</a
+            >
+            <a class="row-3 font-s cor-1" href="mailto:comercial@gardenshop.com"
+              >comercial@gardenshop.com</a
+            >
+          </div>
         </div>
       </div>
     </footer>

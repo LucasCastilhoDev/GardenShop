@@ -43,10 +43,7 @@
   margin-top: 50px;
 }
 
-@media (max-width: 730px) {
-  .planta-bg {
-    background: var(--cor-s1);
-  }
+@media (max-width: 910px) {
   .planta-conteudo {
     grid-template-columns: 1fr;
   }
