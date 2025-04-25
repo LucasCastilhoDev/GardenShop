@@ -17,12 +17,12 @@
     <div class="gradiente-bg">
       <header class="header-bg">
         <div class="header container">
-          <a href="./"
+          <a class="logo" href="./"
             ><img src="./img/icon/GardenShop LOGO.svg" alt="Garden Shop Logo"
           /></a>
 
           <nav
-            id="nav"
+            data-menu="list"
             aria-label="Menu"
             aria-controls="menu"
             aria-expanded="false"
@@ -30,7 +30,7 @@
             <button
               aria-label="Abrir Menu"
               class="font-s cor-1"
-              id="btn-mobile"
+              data-menu="button"
               aria-haspopup="true"
             >
               <span id="hamburger"></span>
@@ -233,6 +233,6 @@
         </div>
       </div>
     </footer>
-    <script src="./js/menu-mobile.js"></script>
+    <script type="module" src="./js/script.js"></script>
   </body>
 </html>
