@@ -23,3 +23,7 @@
 /* Formulário */
 
 @import "./utilidades/formulario.css";
+
+/* Carrinho */
+
+@import "./carrinho/carrinho.css";
