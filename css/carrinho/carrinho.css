@@ -1,0 +1,92 @@
+.carrinho-conteudo {
+  background: var(--cor-s1);
+  display: grid;
+  grid-template-columns: 1fr;
+
+  border-radius: 10px;
+  padding: 30px 50px;
+  gap: 30px;
+  height: 600px auto;
+}
+
+.produto-carrinho {
+  display: grid;
+  grid-template-columns:
+    auto /* Imagem */
+    minmax(200px, 2fr) /* Nome */
+    minmax(20px, 1fr) /* Quantidade */
+    minmax(20px, 1fr) /* Preço */
+    minmax(20px, 1fr); /* Excluir */
+  /* align-items: center; */
+  gap: 20px;
+  padding: 15px;
+  border-bottom: 2px solid #ddd; /* Linha divisória */
+}
+
+.produto-carrinho h3 {
+  font-family: "Titillium Web", Arial, Helvetica, sans-serif;
+  font-weight: 600;
+  font-size: 1rem;
+}
+
+.produto-imagem {
+  max-width: 100px;
+  min-width: 100px;
+}
+
+.produto-imagem img {
+  border-radius: 4px;
+}
+
+.produto-nome {
+  word-break: break-word;
+}
+
+.produto-quantidade,
+.produto-preco,
+.produto-excluir {
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+}
+
+.produto-excluir button {
+  cursor: pointer;
+
+  width: 25px;
+  height: 25px;
+}
+
+.produto-numero span {
+  background: #ffffff;
+  padding: 10px 20px;
+  border-radius: 50px;
+}
+
+.produto-numero button {
+  font-family: "Titillium Web", Arial, Helvetica, sans-serif;
+  font-weight: 600;
+  font-size: 1rem;
+  margin: 0 5px;
+
+  cursor: pointer;
+}
+
+@media (max-width: 768px) {
+  .produto-carrinho {
+    grid-template-columns: auto;
+    text-align: center;
+  }
+
+  .produto-imagem,
+  .produto-nome,
+  .produto-quantidade,
+  .produto-preco,
+  .produto-excluir {
+    justify-self: center; /* Centraliza todos os itens */
+    gap: 30px;
+  }
+
+  .produto-numero {
+    justify-content: center; /* Centraliza botões de quantidade */
+  }
+}
