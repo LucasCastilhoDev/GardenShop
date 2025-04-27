@@ -6,7 +6,7 @@
 @import "./home/sobre.css";
 @import "./home/footer.css";
 @import "./home/loja.css";
-
+@import "./utilidades/animaScroll.css";
 @import "./global/global.css";
 
 @import "./utilidades/componentes.css";
@@ -16,7 +16,6 @@
 /* Planta */
 
 @import "./plantas/planta.css";
-@import "./planta/loja.css";
 
 /* Orçamento */
 @import "./orcamento/orcamento.css";
