@@ -54,8 +54,13 @@
       </header>
 
       <main class="planta-bg">
-        <div class="carrinho-conteudo container" data-anime="scroll">
-          <div class="produto-carrinho">
+        <div class="carrinho-conteudo container">
+          <div class="carrinho-menu">
+            <h1 class="cor-p4 font-xl">Carrinho</h1>
+            <p class="cor-p4 font-m-b">Total R$ 00,00</p>
+          </div>
+
+          <div class="produto-carrinho" data-carrinho="produto">
             <div class="produto-imagem">
               <img src="../img/item carrinho.jpg" alt="item carrinho" />
             </div>
@@ -65,22 +70,24 @@
             <div class="produto-quantidade">
               <h3>Quantidade</h3>
               <div class="produto-numero">
-                <button>-</button>
-                <span>1</span>
-                <button>+</button>
+                <button data-carrinho="diminuir">-</button>
+                <span data-carrinho="quantidade">1</span>
+                <button data-carrinho="adicionar">+</button>
               </div>
             </div>
             <div class="produto-preco">
               <h3>Preço</h3>
-              <p>R$49,90</p>
+              <p data-carrinho="preco">R$49,90</p>
             </div>
             <div class="produto-excluir">
               <h3>Exluir</h3>
-              <button><img src="../img/icon/delete.svg" alt="" /></button>
+              <button data-carrinho="remover">
+                <img src="../img/icon/delete.svg" alt="" />
+              </button>
             </div>
           </div>
 
-          <div class="produto-carrinho">
+          <div class="produto-carrinho" data-carrinho="produto">
             <div class="produto-imagem">
               <img src="../img/item carrinho.jpg" alt="item carrinho" />
             </div>
@@ -90,22 +97,24 @@
             <div class="produto-quantidade">
               <h3>Quantidade</h3>
               <div class="produto-numero">
-                <button>-</button>
-                <span>1</span>
-                <button>+</button>
+                <button data-carrinho="diminuir">-</button>
+                <span data-carrinho="quantidade">1</span>
+                <button data-carrinho="adicionar">+</button>
               </div>
             </div>
             <div class="produto-preco">
               <h3>Preço</h3>
-              <p>R$49,90</p>
+              <p data-carrinho="preco">R$49,90</p>
             </div>
             <div class="produto-excluir">
               <h3>Exluir</h3>
-              <button><img src="../img/icon/delete.svg" alt="" /></button>
+              <button data-carrinho="remover">
+                <img src="../img/icon/delete.svg" alt="" />
+              </button>
             </div>
           </div>
 
-          <div class="produto-carrinho">
+          <div class="produto-carrinho" data-carrinho="produto">
             <div class="produto-imagem">
               <img src="../img/item carrinho.jpg" alt="item carrinho" />
             </div>
@@ -115,22 +124,24 @@
             <div class="produto-quantidade">
               <h3>Quantidade</h3>
               <div class="produto-numero">
-                <button>-</button>
-                <span>1</span>
-                <button>+</button>
+                <button data-carrinho="diminuir">-</button>
+                <span data-carrinho="quantidade">1</span>
+                <button data-carrinho="adicionar">+</button>
               </div>
             </div>
             <div class="produto-preco">
               <h3>Preço</h3>
-              <p>R$49,90</p>
+              <p data-carrinho="preco">R$49,90</p>
             </div>
             <div class="produto-excluir">
               <h3>Exluir</h3>
-              <button><img src="../img/icon/delete.svg" alt="" /></button>
+              <button data-carrinho="remover">
+                <img src="../img/icon/delete.svg" alt="" />
+              </button>
             </div>
           </div>
 
-          <div class="produto-carrinho">
+          <div class="produto-carrinho" data-carrinho="produto">
             <div class="produto-imagem">
               <img src="../img/item carrinho.jpg" alt="item carrinho" />
             </div>
@@ -140,18 +151,74 @@
             <div class="produto-quantidade">
               <h3>Quantidade</h3>
               <div class="produto-numero">
-                <button>-</button>
-                <span>1</span>
-                <button>+</button>
+                <button data-carrinho="diminuir">-</button>
+                <span data-carrinho="quantidade">1</span>
+                <button data-carrinho="adicionar">+</button>
               </div>
             </div>
             <div class="produto-preco">
               <h3>Preço</h3>
-              <p>R$49,90</p>
+              <p data-carrinho="preco">R$49,90</p>
             </div>
             <div class="produto-excluir">
               <h3>Exluir</h3>
-              <button><img src="../img/icon/delete.svg" alt="" /></button>
+              <button data-carrinho="remover">
+                <img src="../img/icon/delete.svg" alt="" />
+              </button>
+            </div>
+          </div>
+
+          <div class="produto-carrinho" data-carrinho="produto">
+            <div class="produto-imagem">
+              <img src="../img/item carrinho.jpg" alt="item carrinho" />
+            </div>
+            <div class="produto-nome">
+              <h3>Monstera Deliciosa</h3>
+            </div>
+            <div class="produto-quantidade">
+              <h3>Quantidade</h3>
+              <div class="produto-numero">
+                <button data-carrinho="diminuir">-</button>
+                <span data-carrinho="quantidade">1</span>
+                <button data-carrinho="adicionar">+</button>
+              </div>
+            </div>
+            <div class="produto-preco">
+              <h3>Preço</h3>
+              <p data-carrinho="preco">R$49,90</p>
+            </div>
+            <div class="produto-excluir">
+              <h3>Exluir</h3>
+              <button data-carrinho="remover">
+                <img src="../img/icon/delete.svg" alt="" />
+              </button>
+            </div>
+          </div>
+
+          <div class="produto-carrinho" data-carrinho="produto">
+            <div class="produto-imagem">
+              <img src="../img/item carrinho.jpg" alt="item carrinho" />
+            </div>
+            <div class="produto-nome">
+              <h3>Monstera Deliciosa</h3>
+            </div>
+            <div class="produto-quantidade">
+              <h3>Quantidade</h3>
+              <div class="produto-numero">
+                <button data-carrinho="diminuir">-</button>
+                <span data-carrinho="quantidade">1</span>
+                <button data-carrinho="adicionar">+</button>
+              </div>
+            </div>
+            <div class="produto-preco">
+              <h3>Preço</h3>
+              <p data-carrinho="preco">R$49,90</p>
+            </div>
+            <div class="produto-excluir">
+              <h3>Exluir</h3>
+              <button data-carrinho="remover">
+                <img src="../img/icon/delete.svg" alt="" />
+              </button>
             </div>
           </div>
         </div>
@@ -159,7 +226,7 @@
     </div>
 
     <article class="catalogo-bg" id="catalogo">
-      <div class="catalogo container" data-anime="scroll">
+      <div class="catalogo container">
         <h2 class="catalogo-titulo font-xl cor-p3">Outras Plantas</h2>
         <ul class="catalogo-lista">
           <li>
@@ -213,7 +280,7 @@
     </article>
 
     <footer class="footer-bg">
-      <div class="container" data-anime="scroll">
+      <div class="container">
         <div class="footer-grid">
           <div class="footer-endereco">
             <img src="../img/icon/GardenShop LOGO.svg" alt="Garden Shop" />

@@ -1,0 +1,53 @@
+{
+  "produtos": [
+    {
+      "id": 1,
+      "nome": "Monstera Deliciosa",
+      "preco": 59.9,
+      "imagem": "Monstera.jpg"
+    },
+    {
+      "id": 2,
+      "nome": "Zamioculca",
+      "preco": 25.5,
+      "imagem": "Monstera.jpg"
+    },
+    {
+      "id": 3,
+      "nome": "Philodendron",
+      "preco": 20.0,
+      "imagem": "Monstera.jpg"
+    },
+    {
+      "id": 4,
+      "nome": "Monstera Adansonii",
+      "preco": 25.7,
+      "imagem": "Monstera.jpg"
+    },
+    {
+      "id": 5,
+      "nome": "Samambaia",
+      "preco": 49.9,
+      "imagem": "Monstera.jpg"
+    },
+    {
+      "id": 6,
+      "nome": "Jiboia",
+      "preco": 39.9,
+      "imagem": "Monstera.jpg"
+    },
+    {
+      "id": 7,
+      "nome": "Ficus Lyrata",
+      "preco": 79.9,
+      "imagem": "Monstera.jpg"
+    },
+    {
+      "id": 8,
+      "nome": "Cacto",
+      "preco": 15.9,
+      "imagem": "Monstera.jpg"
+    }
+  ],
+  "carrinho": []
+}
