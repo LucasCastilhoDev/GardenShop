@@ -6,7 +6,15 @@
   border-radius: 10px;
   padding: 30px 50px;
   gap: 30px;
-  height: 600px auto;
+
+  min-height: 200px;
+  height: auto;
+}
+
+.carrinho-menu {
+  display: flex;
+  justify-content: space-between;
+  margin-right: 100px;
 }
 
 .produto-carrinho {
