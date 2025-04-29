@@ -1,8 +1,7 @@
 import MenuMobile from "./modules/menu-mobile.js";
 import ScrollAnima from "./modules/scrollAnima.js";
 import FuncionalidadesCarrinho from "./modules/funcionalidades-carrinho.js";
-
-// import FetchProdutos from "./modules/fetch-produtos.js";
+import AdicionarProduto from "./modules/adicionar-produto.js";
 
 const menuMobile = new MenuMobile("[data-menu='button']", "[data-menu='list']");
 menuMobile.init();
@@ -17,4 +16,5 @@ const funcionalidadesCarrinho = new FuncionalidadesCarrinho(
 );
 funcionalidadesCarrinho.init();
 
-// FetchProdutos("./produtosapi.json", ".produto-carrinho");
+const adicionarProduto = new AdicionarProduto(".catalogo-botao-compra");
+adicionarProduto.init();
